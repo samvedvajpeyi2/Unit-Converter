@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-pic.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="H8J-ib-IFQ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vajpey_s" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4r-t2-X6y">
+                                <rect key="frame" x="156" y="348" width="64" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="A6Q-ta-TTr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unit Converter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNN-mm-KQG">
+                                <rect key="frame" x="50" y="100" width="276" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="g94-6n-5Lm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Samved Mohan VAJPEYI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfk-WL-gvF">
+                                <rect key="frame" x="94" y="389" width="188" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="byj-Mf-nri"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="epita-logo-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="m9f-u8-aWh">
+                                <rect key="frame" x="118" y="192" width="160" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="Lor-gE-L1h"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="H8J-ib-IFQ" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="3rz-Pg-4bo"/>
+                            <constraint firstItem="Kfk-WL-gvF" firstAttribute="top" secondItem="r4r-t2-X6y" secondAttribute="bottom" constant="20" id="7oo-14-D0k"/>
+                            <constraint firstItem="mNN-mm-KQG" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="80" id="8pm-3j-c8p"/>
+                            <constraint firstItem="H8J-ib-IFQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ArA-j4-I4B"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Kfk-WL-gvF" secondAttribute="bottom" constant="257" id="DDk-yH-VuJ"/>
+                            <constraint firstItem="H8J-ib-IFQ" firstAttribute="centerX" secondItem="mNN-mm-KQG" secondAttribute="centerX" id="KLJ-3w-Jjm"/>
+                            <constraint firstItem="m9f-u8-aWh" firstAttribute="top" secondItem="mNN-mm-KQG" secondAttribute="bottom" constant="44" id="KdW-21-ifZ"/>
+                            <constraint firstItem="r4r-t2-X6y" firstAttribute="centerX" secondItem="Kfk-WL-gvF" secondAttribute="centerX" id="T7y-D6-dnd"/>
+                            <constraint firstItem="mNN-mm-KQG" firstAttribute="centerX" secondItem="r4r-t2-X6y" secondAttribute="centerX" id="Tou-r9-TQv"/>
+                            <constraint firstItem="H8J-ib-IFQ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="bYl-Ai-Nar"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="m9f-u8-aWh" secondAttribute="trailing" constant="81" id="lfG-Nx-abI"/>
+                            <constraint firstAttribute="trailing" secondItem="H8J-ib-IFQ" secondAttribute="trailing" id="rwO-05-7ca"/>
+                            <constraint firstItem="r4r-t2-X6y" firstAttribute="top" secondItem="m9f-u8-aWh" secondAttribute="bottom" constant="38" id="w9o-1r-zsi"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="374.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg-pic.jpg" width="744" height="1392"/>
+        <image name="epita-logo-2.png" width="517" height="350"/>
+    </resources>
+</document>
